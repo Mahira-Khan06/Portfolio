@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600;700&family=Manrope:wght@400;500;600;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #050203;
+  color: #f3e9d8;
+  font-family: 'Manrope', sans-serif;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(255, 43, 67, 0.35);
+  color: #f3e9d8;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050203;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a0b10;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff2b43;
+}
+
+.section-eyebrow {
+  font-size: 13px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #ff7a1a;
+}
+
+.section-title {
+  font-family: 'Cormorant SC', serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.glow-text {
+  color: #ff2b43;
+  text-shadow: 0 0 30px rgba(255, 43, 67, 0.5), 0 0 80px rgba(255, 43, 67, 0.2);
+}
+
+.card-border {
+  border: 1px solid #2a0b10;
+}
