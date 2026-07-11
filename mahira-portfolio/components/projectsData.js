@@ -5,7 +5,7 @@ export const groupProjects = [
     description:
       "An AI-powered life companion that unifies mental health, career, and personal growth into a living, visual 'Life Tree'. Uses Mirror AI to look at past user data, analyze emotional patterns, and offer tailored, reflective feedback.",
     stack: ["React", "Node.js", "Firebase", "Python", "TensorFlow", "OpenAI API"],
-    github: "https://github.com/Walker71619",
+    github: "https://github.com/Walker71619/Astitva",
     demo: "https://astitva-nine.vercel.app", 
   },
   {
@@ -35,7 +35,7 @@ export const soloProjects = {
       description:
         "AI legal training platform — courtroom simulations, IRAC reasoning, rubric-graded feedback across 6 legal domains, and an instructor mode for scenario management.",
       stack: ["React", "Node.js", "Express", "MongoDB", "OpenAI API", "JWT"],
-      github: "https://github.com/Mahira-k06",
+      github: "https://github.com/Walker71619/Krino",
       demo: "https://krino-law.vercel.app",
     },
     {
@@ -44,7 +44,7 @@ export const soloProjects = {
       description:
         "Habit tracker that builds daily streaks, visualises progress with charts and a calendar heatmap, and keeps your chains unbroken.",
       stack: ["React", "Node.js", "Express", "MongoDB", "Chart.js"],
-      github: "https://github.com/Mahira-k06",
+      github: "https://github.com/Walker71619/ChainForge",
       demo: "https://chainforge-five.vercel.app",
     },
     {
@@ -53,7 +53,7 @@ export const soloProjects = {
       description:
         "Real-time collaborative Kanban board with live presence indicators, optimistic UI, LexoRank ordering, and atomic race-condition prevention for concurrent edits.",
       stack: ["Next.js", "Socket.io", "MongoDB", "TanStack Query", "@dnd-kit"],
-      github: "https://github.com/Mahira-k06",
+      github: "https://github.com/Walker71619/SyncBoard",
       demo: null,
     },
   ],
@@ -64,7 +64,7 @@ export const soloProjects = {
       description:
         "Real-time analytics dashboard streaming live events via WebSocket with LTTB downsampling, anomaly detection, and react-window virtualisation. Lighthouse 90+, LCP < 2.5s, CLS 0.",
       stack: ["React 18", "TypeScript", "WebSocket", "Chart.js", "TimescaleDB", "Docker"],
-      github: "https://github.com/Mahira-k06",
+      github: "https://github.com/Walker71619/Lumentrace",
       demo: null,
     },
   ],
@@ -93,7 +93,7 @@ export const soloProjects = {
       description:
         "LRU Cache simulator in C++ — O(1) get/put via doubly linked list + unordered_map, automatic LRU eviction, hit/miss tracking, generic template support, and Rule of 5 memory safety.",
       stack: ["C++17", "Doubly Linked List", "unordered_map", "Templates", "Rule of 5"],
-      github: "https://github.com/Mahira-k06",
+      github: "https://github.com/Walker71619/LRU-Cache-simulator",
       demo: null,
     },
   ],
