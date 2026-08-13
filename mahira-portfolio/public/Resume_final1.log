@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.8.13)  13 AUG 2026 10:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.8.13)  13 AUG 2026 22:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -308,8 +308,7 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 tex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count300
-)
-No file Resume_final1.aux.
+) (Resume_final1.aux)
 \openout1 = `Resume_final1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
@@ -347,6 +346,7 @@ ii
 \everyMPtoPDFconversion=\toks27
 )
 Package hyperref Info: Link coloring OFF on input line 75.
+ (Resume_final1.out) (Resume_final1.out)
 \@outlinefile=\write3
 \openout3 = `Resume_final1.out'.
 
@@ -379,12 +379,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [1
 
 {C:/Users/mahir/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
-
-[2] (Resume_final1.aux)
+(Resume_final1.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -393,23 +388,17 @@ L3 programming layer <2025-12-24>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `Resume_final1.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Resume_final1.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  461D13DFB647B04A3FACF85AAF0BDA94;560.
+Package rerunfilecheck Info: File `Resume_final1.out' has not changed.
+(rerunfilecheck)             Checksum: 461D13DFB647B04A3FACF85AAF0BDA94;560.
  ) 
 Here is how much of TeX's memory you used:
- 10859 strings out of 467871
- 172536 string characters out of 5418376
- 622814 words of memory out of 5000000
- 39625 multiletter control sequences out of 15000+600000
+ 10872 strings out of 467871
+ 172947 string characters out of 5418376
+ 623809 words of memory out of 5000000
+ 39633 multiletter control sequences out of 15000+600000
  633481 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,299b,608s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,299b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/mahir/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/mahir/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/mahir/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -419,9 +408,9 @@ KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/mahir/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/mahir/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/mahir
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Resume_final1.pdf (2 pages, 129114 bytes).
+Output written on Resume_final1.pdf (1 page, 129932 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 PDF objects out of 1000 (max. 8388607)
+ 7 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
