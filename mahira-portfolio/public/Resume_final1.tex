@@ -1,0 +1,157 @@
+%-------------------------
+% Resume in Latex
+% Based on: Jake's Resume Template
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-.1in}
+\addtolength{\textheight}{2in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{1pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{1pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{1pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{1pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, itemsep=1pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{4pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Mahira Khan} \\ \vspace{1pt}
+    \small +91 9911120845 $|$ \href{mailto:mahirakhan24538@gmail.com}{mahirakhan24538@gmail.com} $|$
+    \href{https://www.linkedin.com/in/mahira-khan-678646286/}{linkedin.com/in/mahira-khan} $|$
+    \href{https://github.com/Mahira-Khan06}{github.com/Mahira-Khan06} $|$
+    \href{https://portfolio-livid-gamma-hyvps02sen.vercel.app/}{portfolio}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Dr. Akhilesh Das Gupta Institute of Professional Studies (ADGIPS), GGSIPU}{Delhi, India}
+      {Bachelor of Technology in Information Technology; CGPA: 8.6/10}{Expected May 2028}
+      \resumeItemListStart
+        \resumeItem{\textbf{Relevant Coursework:} Data Structures \& Algorithms, Object-Oriented Programming, DBMS, Discrete Mathematics, Operating Systems, Computer Networks, Computer Architecture, Design \& Analysis of Algorithms}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{SyncBoard} $|$ \emph{Next.js, React, MongoDB, Socket.io, TanStack Query, Tailwind CSS}}{2026}
+          \resumeItemListStart
+            \resumeItem{Built a real-time collaborative Kanban board supporting concurrent multi-user editing via Socket.io, with live presence indicators and card-lock overlays to prevent conflicting edits}
+            \resumeItem{Engineered optimistic concurrency control using MongoDB's \texttt{findOneAndUpdate} with version fields, eliminating race conditions when multiple users simultaneously moved the same card}
+            \resumeItem{Implemented optimistic UI updates with TanStack Query's snapshot/revert pattern, giving users instant feedback while gracefully rolling back on server conflicts}
+            \resumeItem{Designed a LexoRank-based ordering system using float positions for card reordering, reducing update complexity from O(n) to O(1) versus naive integer-based reordering}
+            \resumeItem{Integrated GitHub/Google OAuth via NextAuth.js v5 with server-side protected routes, and built fully keyboard-accessible drag-and-drop (WCAG compliant) using @dnd-kit}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{VeloxDB -- In-Memory Key-Value Store} $|$ \emph{Multithreading, File I/O}}{2026}
+          \resumeItemListStart
+            \resumeItem{Designed and implemented an in-memory key-value store in Java inspired by Redis, supporting TTL-based expiry, LRU eviction, and thread-safe concurrent operations}
+            \resumeItem{Built thread-safe read/write operations using \texttt{ConcurrentHashMap}, enabling safe concurrent access from multiple threads without external locking}
+            \resumeItem{Implemented an LRU eviction policy using a \texttt{LinkedHashMap}-based cache to enforce configurable memory limits and evict least-recently-used entries}
+            \resumeItem{Developed lazy expiry checks and a background cleanup thread to automatically purge expired keys, alongside file-based persistence for save/reload on restart}
+            \resumeItem{Simulated concurrent multi-threaded access patterns to validate correctness of thread-safety guarantees under load}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Top 22 of 2,500+ teams} -- Code For Bharat Season 2 \emph{(Microsoft; Tech Masters India)}}{2025}
+          \resumeItemListStart
+            \resumeItem{Built CampusHustle, a freelance marketplace and skill-matching platform connecting students with real-world project opportunities}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Best Girl Team, Top 10 of 1,700+ teams} -- Hackster 2025 \emph{(HMR Institute of Technology)}}{2025}
+          \resumeItemListStart
+            \resumeItem{Built Astitva, an AI-powered life companion app unifying mental health, career, and personal growth tracking}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Top 10 team} -- TechJam 2.0 \emph{(Microsoft Sovereign Office, Noida; MLH, Unstop)}}{2025}
+    \resumeSubHeadingListEnd
+
+%-----------PROBLEM SOLVING-----------
+\section{Problem Solving \& DSA}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{LeetCode}{: 180+ problems solved across C++, Java, and JavaScript; earned the 100 Days Consistency Badge (2026)} \\
+     \textbf{Core Strength}{: Arrays, Strings,LinkedList,Bit manipulation, Heaps, Two Pointers, Hash Tables, Binary Search, Sliding Window} \\
+     \textbf{Currently Advancing}{: Dynamic Programming, Backtracking, Divide \& Conquer, Greedy, Graphs}
+    }}
+ \end{itemize}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C++, Java, JavaScript, TypeScript} \\
+     \textbf{Frameworks \& Libraries}{: React, Next.js, Node.js, Express, Socket.io, TanStack Query, Tailwind CSS} \\
+     \textbf{Databases \& Tools}{: MongoDB, TimescaleDB, Git, Docker, Vercel, Firebase}
+    }}
+ \end{itemize}
+
+\end{document}

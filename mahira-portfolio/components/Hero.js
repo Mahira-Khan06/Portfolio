@@ -58,7 +58,7 @@ export default function Hero() {
               View work
             </a>
             <a
-              href="/resume.pdf"
+              href="/Resume_final1.pdf"
               className="px-9 py-4 text-xs uppercase tracking-widest font-semibold border border-ink/20 hover:border-ember hover:text-ember transition-all duration-300"
             >
               Resume
