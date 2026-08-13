@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 const profiles = [
   {
     name: "GitHub",
-    handle: "@Walker71619",
-    href: "https://github.com/Walker71619",
+    handle: "@Mahira-k06",
+    href: "https://github.com/Mahira-k06",
     desc: "Full project history, commits, and source code.",
   },
   {

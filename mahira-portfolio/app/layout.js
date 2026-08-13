@@ -2,7 +2,7 @@ import "./globals.css";
 import CursorWrapper from "@/components/CursorWrapper";
 
 export const metadata = {
-  title: "Mahira Khan — Full-Stack Developer",
+  title: "Mahira Khan — Portfolio",
   description:
     "Portfolio of Mahira Khan, full-stack developer building real-time, full-stack web experiences.",
 };

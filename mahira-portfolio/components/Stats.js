@@ -30,7 +30,7 @@ const semesters = [
   { sem: "Sem 1", gpa: 7.8 },
   { sem: "Sem 2", gpa: 9.08 },
   { sem: "Sem 3", gpa: 8.34 },
-  { sem: "Sem 4", gpa: 9.077 },
+  { sem: "Sem 4", gpa: 9.1 },
 ];
 
 export default function Stats() {
@@ -56,7 +56,7 @@ export default function Stats() {
       <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-16">
         <div className="card-border p-8 text-center">
           <p className="font-display text-5xl text-ember glow-text">
-            <Counter to={130} />
+            <Counter to={180} suffix= "+" />
           </p>
           <p className="text-xs uppercase tracking-widest text-muted mt-3">
             LeetCode solved
@@ -64,7 +64,7 @@ export default function Stats() {
         </div>
         <div className="card-border p-8 text-center">
           <p className="font-display text-5xl text-ember2">
-            <Counter to={1170} suffix="+" />
+            <Counter to={1000} suffix="+" />
           </p>
           <p className="text-xs uppercase tracking-widest text-muted mt-3">
             GitHub commits
