@@ -79,7 +79,7 @@ export const groupProjects = [
     description:
       "An AI-powered life companion that unifies mental health, career, and personal growth into a living, visual 'Life Tree'. Uses Mirror AI to look at past user data, analyze emotional patterns, and offer tailored, reflective feedback.",
     stack: ["React", "Node.js", "Firebase", "Python", "TensorFlow", "OpenAI API"],
-    github: "https://github.com/Walker71619",
+    github: "https://github.com/Mahira-k06/Astitva",
     demo: "https://astitva-nine.vercel.app", 
   },
   {
@@ -88,7 +88,7 @@ export const groupProjects = [
     description:
       "Built for Code For Bharat Season 2 Hackathon. A digital ecosystem empowering students to bridge classroom learning with real-world exposure via a freelance marketplace, smart skill-matching, and team-building hubs.",
     stack: ["React", "Node.js", "Express", "Tailwind CSS"],
-    github: "https://github.com/Walker71619/CampusHustle",
+    github: "https://github.com/Mahira-k06/CampusHustle",
     demo: "https://campushustle-og.vercel.app", 
   },
   {
@@ -97,7 +97,7 @@ export const groupProjects = [
     description:
       "Built for the Smart India Hackathon (SIH) 2025. An interactive platform designed for timeline curation, mapping, and historical documentation, leveraging a modular architecture and real-time database syncing.",
     stack: ["React", "Firebase", "CSS Modules"],
-    github: "https://github.com/Walker71619/Ithikosh",
+    github: "https://github.com/Mahira-k06/Ithikosh",
     demo: "https://ithikosh.vercel.app",
   },
 ];
