@@ -108,7 +108,7 @@ export default function About() {
               See my work →
             </a>
             <a
-              href="/resume.pdf"
+              href="/Resume_final1.pdf"
               className="text-xs uppercase tracking-widest text-muted hover:text-ink transition-colors duration-300 border-b border-muted/20 hover:border-ink/40 pb-0.5"
             >
               Download resume →

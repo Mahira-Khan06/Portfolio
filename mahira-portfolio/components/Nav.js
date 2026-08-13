@@ -34,7 +34,7 @@ export default function Nav() {
         ))}
       </ul>
       <a
-        href="/resume.pdf"
+        href="/Resume_final1.pdf"
         className="text-xs uppercase tracking-widest px-4 py-2 border border-ink/20 hover:border-ember hover:text-ember hover:shadow-ember transition-all duration-300"
       >
         Resume
